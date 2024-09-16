@@ -1,0 +1,9 @@
+[package]
+name = "guessing_game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# A library crate is a collection of code intended for use in other programs
+# We're currently writing an executable crate which is intended to be ran
+rand = "0.8.5"
